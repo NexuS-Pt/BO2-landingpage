@@ -34,10 +34,11 @@
 		<meta name="keywords" content="#keywords#" />
 		<meta name="description" content="#description#" />
 		<meta name="robots" content="index" />
-		<meta name="author" content="NexuS-Pt, work team" />
+		<meta name="author" content="One:Shift at one-shift.com" />
 		<meta name="author-code" content="#someone#" />
 
 		<?php
+			print file_get_contents("http://nexus-pt.github.io/BO2/jquery.html");
 			print file_get_contents("http://nexus-pt.github.io/BO2/bootstrap.html");
 			print file_get_contents("http://nexus-pt.github.io/BO2/fontawesome.html");
 		?>
